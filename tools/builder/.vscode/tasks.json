@@ -2,16 +2,19 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build",
-            "command": "dotnet",
+            "label": "Build xUnit.net",
             "type": "process",
+            "command": "dotnet",
             "args": [
-                "build"
+                "run",
+                "--project",
+                "${workspaceRoot}",
+                "--no-launch-profile"
             ],
-            "options": {
-                "cwd": "${workspaceFolder}"
-            },
             "group": "build",
+            "presentation": {
+                "focus": true
+            },
             "problemMatcher": "$msCompile"
         }
     ]
