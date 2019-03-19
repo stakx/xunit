@@ -3,6 +3,7 @@
         "app",
         "nuget",
         "nupkg",
+        "parallelization",
         "veyor"
     ],
     "files.exclude": {
