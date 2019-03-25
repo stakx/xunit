@@ -46,6 +46,7 @@ public class BuildContext
 
     public string TestFlagsNonParallel { get; private set; }
 
+    // This is not sufficient moving forward; we will need to differentiate between single-runner vs. multi-runner options
     public string TestFlagsParallel { get; private set; }
 
     public string TestOutputFolder { get; private set; }

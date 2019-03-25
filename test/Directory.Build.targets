@@ -2,9 +2,9 @@
 
   <Import Project="../src/netfx.targets" />
 
-  <Import Condition=" '$(MSBuildProjectName)' != 'test.utility' and '$(MSBuildProjectName)' != 'test.harness.uwp'  " Project="..\src\xunit.core\build\xunit.core.targets" />
+  <!-- <Import Condition=" '$(MSBuildProjectName)' != 'test.utility' and '$(MSBuildProjectName)' != 'test.harness.uwp'  " Project="..\src\xunit.core\build\xunit.core.targets" /> -->
 
-  <Import Condition=" '$(_Xunit_ImportTargetsFile)' != '' " Project="$(_Xunit_ImportTargetsFile)" />
+  <!-- <Import Condition=" '$(_Xunit_ImportTargetsFile)' != '' " Project="$(_Xunit_ImportTargetsFile)" /> -->
 
   <PropertyGroup Condition=" '$(TargetFrameworkIdentifier)' == '.NETFramework' ">
     <DebugType>full</DebugType>

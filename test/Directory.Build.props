@@ -1,6 +1,6 @@
 <Project>
 
-  <Import Condition=" '$(MSBuildProjectName)' != 'test.utility' " Project="..\src\xunit.core\build\xunit.core.props" />
+  <!-- <Import Condition=" '$(MSBuildProjectName)' != 'test.utility' " Project="..\src\xunit.core\build\xunit.core.props" /> -->
 
   <Import Condition=" '$(_Xunit_ImportPropsFile)' != '' " Project="$(_Xunit_ImportPropsFile)" />
 
@@ -25,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup Condition=" '$(MSBuildProjectName)' != 'test.utility' AND '$(MSBuildProjectName)' != 'test.xunit1' ">
-    <ProjectReference Include="$(MSBuildThisFileDirectory)test.utility\test.utility.csproj" />
+    <!-- <ProjectReference Include="$(MSBuildThisFileDirectory)test.utility\test.utility.csproj" /> -->
   </ItemGroup>
 
   <!-- Support for building net472 assemblies on non-Windows machines -->

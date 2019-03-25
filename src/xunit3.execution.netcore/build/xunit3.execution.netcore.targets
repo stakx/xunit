@@ -1,0 +1,44 @@
+<Project InitialTargets="GenerateProgramFile" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+
+  <!--
+    Output type for .NET Core test projects should be exe.
+    https://devdiv.visualstudio.com/DevDiv/_workitems?id=375688&_a=edit
+  -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+
+
+</Project>
+
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <DebugType Condition=" '$(DebugType)' == '' ">portable</DebugType>
+    <GenerateDependencyFile Condition=" '$(GenerateDependencyFile)' == '' ">true</GenerateDependencyFile>
+    <GeneratedProgramFile Condition=" '$(GeneratedProgramFile)' == '' ">$(MSBuildThisFileDirectory)xunit3.entrypoint$(DefaultLanguageSourceExtension)</GeneratedProgramFile>
+    <GenerateRuntimeConfigurationFiles Condition=" '$(GenerateRuntimeConfigurationFiles') == '' ">true</GenerateRuntimeConfigurationFiles>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <Target Name="GenerateProgramFile">
+    <ItemGroup Condition="'$(Language)' == 'VB' or '$(Language)' == 'C#'">
+      <Compile Include="$(GeneratedProgramFile)"/>
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(Language)' == 'F#'">
+      <ProgramCompiles Include="@(Compile)" Condition="'%(Identity)' == 'Program.fs'" />
+      <CompileAfter Include="$(GeneratedProgramFile)" Condition="@(ProgramCompiles-&gt;Count()) == 0" />
+    </ItemGroup>
+
+    <Warning Condition="@(ProgramCompiles-&gt;Count()) != 0" Text="A 'Program.fs' file can be automatically generated for F# .NET Core test projects. To fix this warning, either delete the file from the project, or set the &lt;GenerateProgramFile&gt; property to 'false'." />
+  </Target>
+</Project>
