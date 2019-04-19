@@ -1,0 +1,415 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace Xunit
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace Xunit
+   ">
+    <meta name="generator" content="docfx 2.41.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Xunit">
+  
+  <h1 id="Xunit" data-uid="Xunit" class="text-break">Namespace Xunit
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="Xunit.AfterTestFinished.html">AfterTestFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:IAfterTestFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.AfterTestStarting.html">AfterTestStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:IAfterTestStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.AssemblyTraitAttribute.html">AssemblyTraitAttribute</a></h4>
+      <section><p>Attribute used to decorate an assembly with arbitrary name/value pairs (&quot;traits&quot;).</p>
+</section>
+      <h4><a class="xref" href="Xunit.Assert.html">Assert</a></h4>
+      <section><p>Contains various static methods that are used to verify that conditions are met during the
+process of running tests.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Assert.RaisedEvent-1.html">Assert.RaisedEvent&lt;T&gt;</a></h4>
+      <section><p>Represents a raised event after the fact.</p>
+</section>
+      <h4><a class="xref" href="Xunit.BeforeTestFinished.html">BeforeTestFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:IBeforeTestFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.BeforeTestStarting.html">BeforeTestStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:IBeforeTestStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.ClassDataAttribute.html">ClassDataAttribute</a></h4>
+      <section><p>Provides a data source for a data theory, with the data coming from a class
+which must implement IEnumerable&lt;object[]&gt;.
+Caution: the property is completely enumerated by .ToList() before any test is run. Hence it should return independent object sets.</p>
+</section>
+      <h4><a class="xref" href="Xunit.CollectionAttribute.html">CollectionAttribute</a></h4>
+      <section><p>Used to declare a specific test collection for a test class.</p>
+</section>
+      <h4><a class="xref" href="Xunit.CollectionBehaviorAttribute.html">CollectionBehaviorAttribute</a></h4>
+      <section><p>Used to declare the default test collection behavior for the assembly.</p>
+</section>
+      <h4><a class="xref" href="Xunit.CollectionDefinitionAttribute.html">CollectionDefinitionAttribute</a></h4>
+      <section><p>Used to declare a test collection container class. The container class gives
+developers a place to attach interfaces like <a class="xref" href="Xunit.IClassFixture-1.html">IClassFixture&lt;TFixture&gt;</a> and
+<a class="xref" href="Xunit.ICollectionFixture-1.html">ICollectionFixture&lt;TFixture&gt;</a> that will be applied to all tests classes
+that are members of the test collection.</p>
+</section>
+      <h4><a class="xref" href="Xunit.DiagnosticMessage.html">DiagnosticMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:IDiagnosticMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.DiscoveryCompleteMessage.html">DiscoveryCompleteMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:IDiscoveryCompleteMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.ErrorMessage.html">ErrorMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:IErrorMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.ExceptionUtility.html">ExceptionUtility</a></h4>
+      <section><p>Utility classes for dealing with Exception objects.</p>
+</section>
+      <h4><a class="xref" href="Xunit.FactAttribute.html">FactAttribute</a></h4>
+      <section><p>Attribute that is applied to a method to indicate that it is a fact that should be run
+by the test runner. It can also be extended to support a customized definition of a
+test method.</p>
+</section>
+      <h4><a class="xref" href="Xunit.InlineDataAttribute.html">InlineDataAttribute</a></h4>
+      <section><p>Provides a data source for a data theory, with the data coming from inline values.</p>
+</section>
+      <h4><a class="xref" href="Xunit.LongLivedMarshalByRefObject.html">LongLivedMarshalByRefObject</a></h4>
+      <section><p>Base class for all long-lived objects that may cross over an AppDomain.</p>
+</section>
+      <h4><a class="xref" href="Xunit.MemberDataAttribute.html">MemberDataAttribute</a></h4>
+      <section><p>Provides a data source for a data theory, with the data coming from one of the following sources:</p>
+<ol>
+<li>A static property</li>
+<li>A static field</li>
+<li>A static method (with parameters)
+The member must return something compatible with IEnumerable&lt;object[]&gt; with the test data.
+Caution: the property is completely enumerated by .ToList() before any test is run. Hence it should return independent object sets.</li>
+</ol>
+</section>
+      <h4><a class="xref" href="Xunit.MemberDataAttributeBase.html">MemberDataAttributeBase</a></h4>
+      <section><p>Provides a base class for attributes that will provide member data. The member data must return
+something compatible with <see cref="!:IEnumerable"></see>.
+Caution: the property is completely enumerated by .ToList() before any test is run. Hence it should return independent object sets.</p>
+</section>
+      <h4><a class="xref" href="Xunit.NullMessageSink.html">NullMessageSink</a></h4>
+      <section><p>An implementation of <see cref="!:IMessageSink"></see> and <span class="xref">Xunit.IMessageSinkWithTypes</span> that
+ignores all messages.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Record.html">Record</a></h4>
+      <section><p>Allows the user to record actions for a test.</p>
+</section>
+      <h4><a class="xref" href="Xunit.SourceInformation.html">SourceInformation</a></h4>
+      <section><p>Default implementation of <see cref="!:ISourceInformation"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TeamCityDisplayNameFormatter.html">TeamCityDisplayNameFormatter</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Xunit.TestAssemblyCleanupFailure.html">TestAssemblyCleanupFailure</a></h4>
+      <section><p>Default implementation of <a class="xref" href="Xunit.TestAssemblyCleanupFailure.html">TestAssemblyCleanupFailure</a>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestAssemblyFinished.html">TestAssemblyFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestAssemblyFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestAssemblyMessage.html">TestAssemblyMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestAssemblyMessage"></see> and <see cref="!:IExecutionMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestAssemblyStarting.html">TestAssemblyStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestAssemblyStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestCaseCleanupFailure.html">TestCaseCleanupFailure</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCaseCleanupFailure"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestCaseDiscoveryMessage.html">TestCaseDiscoveryMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCaseDiscoveryMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestCaseFinished.html">TestCaseFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCaseFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestCaseMessage.html">TestCaseMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCaseMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestCaseOrdererAttribute.html">TestCaseOrdererAttribute</a></h4>
+      <section><p>Used to decorate an assembly, test collection, or test class to allow
+the use of a custom <a class="xref" href="Xunit.Sdk.ITestCaseOrderer.html">ITestCaseOrderer</a>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestCaseStarting.html">TestCaseStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCaseStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestClassCleanupFailure.html">TestClassCleanupFailure</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassCleanupFailure"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestClassConstructionFinished.html">TestClassConstructionFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassConstructionFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestClassConstructionStarting.html">TestClassConstructionStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassConstructionStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestClassDisposeFinished.html">TestClassDisposeFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassDisposeFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestClassDisposeStarting.html">TestClassDisposeStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassDisposeStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestClassFinished.html">TestClassFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestClassMessage.html">TestClassMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestClassStarting.html">TestClassStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestCleanupFailure.html">TestCleanupFailure</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCleanupFailure"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestCollectionCleanupFailure.html">TestCollectionCleanupFailure</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCollectionCleanupFailure"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestCollectionFinished.html">TestCollectionFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCollectionFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestCollectionMessage.html">TestCollectionMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCollectionMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestCollectionOrdererAttribute.html">TestCollectionOrdererAttribute</a></h4>
+      <section><p>Used to decorate an assembly to allow the use of a custom <span class="xref">Xunit.Sdk.ITestCollectionOrderer</span>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestCollectionStarting.html">TestCollectionStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCollectionStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestFailed.html">TestFailed</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestFailed"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestFinished.html">TestFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestFrameworkAttribute.html">TestFrameworkAttribute</a></h4>
+      <section><p>Used to decorate an assembly to allow the use of a custom <span class="xref">Xunit.Sdk.ITestFramework</span>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestMessage.html">TestMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestMethodCleanupFailure.html">TestMethodCleanupFailure</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestMethodCleanupFailure"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestMethodFinished.html">TestMethodFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestMethodFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestMethodMessage.html">TestMethodMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestMethodMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestMethodStarting.html">TestMethodStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestMethodStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestOutput.html">TestOutput</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestOutput"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestPassed.html">TestPassed</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestPassed"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestResultMessage.html">TestResultMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestResultMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestSkipped.html">TestSkipped</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestSkipped"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestStarting.html">TestStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TheoryAttribute.html">TheoryAttribute</a></h4>
+      <section><p>Marks a test method as being a data theory. Data theories are tests which are fed
+various bits of data from a data source, mapping to parameters on the test method.
+If the data source contains multiple rows, then the test method is executed
+multiple times (once with each data row). Data is provided by attributes which
+derive from <a class="xref" href="Xunit.Sdk.DataAttribute.html">DataAttribute</a> (notably, <a class="xref" href="Xunit.InlineDataAttribute.html">InlineDataAttribute</a> and
+<a class="xref" href="Xunit.MemberDataAttribute.html">MemberDataAttribute</a>).</p>
+</section>
+      <h4><a class="xref" href="Xunit.TheoryData.html">TheoryData</a></h4>
+      <section><p>Provides data for theories based on collection initialization syntax.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TheoryData-1.html">TheoryData&lt;T&gt;</a></h4>
+      <section><p>Represents a set of data for a theory with a single parameter. Data can
+be added to the data set using the collection initializer syntax.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TheoryData-10.html">TheoryData&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10&gt;</a></h4>
+      <section><p>Represents a set of data for a theory with 5 parameters. Data can
+be added to the data set using the collection initializer syntax.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TheoryData-2.html">TheoryData&lt;T1, T2&gt;</a></h4>
+      <section><p>Represents a set of data for a theory with 2 parameters. Data can
+be added to the data set using the collection initializer syntax.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TheoryData-3.html">TheoryData&lt;T1, T2, T3&gt;</a></h4>
+      <section><p>Represents a set of data for a theory with 3 parameters. Data can
+be added to the data set using the collection initializer syntax.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TheoryData-4.html">TheoryData&lt;T1, T2, T3, T4&gt;</a></h4>
+      <section><p>Represents a set of data for a theory with 4 parameters. Data can
+be added to the data set using the collection initializer syntax.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TheoryData-5.html">TheoryData&lt;T1, T2, T3, T4, T5&gt;</a></h4>
+      <section><p>Represents a set of data for a theory with 5 parameters. Data can
+be added to the data set using the collection initializer syntax.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TheoryData-6.html">TheoryData&lt;T1, T2, T3, T4, T5, T6&gt;</a></h4>
+      <section><p>Represents a set of data for a theory with 5 parameters. Data can
+be added to the data set using the collection initializer syntax.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TheoryData-7.html">TheoryData&lt;T1, T2, T3, T4, T5, T6, T7&gt;</a></h4>
+      <section><p>Represents a set of data for a theory with 5 parameters. Data can
+be added to the data set using the collection initializer syntax.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TheoryData-8.html">TheoryData&lt;T1, T2, T3, T4, T5, T6, T7, T8&gt;</a></h4>
+      <section><p>Represents a set of data for a theory with 5 parameters. Data can
+be added to the data set using the collection initializer syntax.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TheoryData-9.html">TheoryData&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9&gt;</a></h4>
+      <section><p>Represents a set of data for a theory with 5 parameters. Data can
+be added to the data set using the collection initializer syntax.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TraitAttribute.html">TraitAttribute</a></h4>
+      <section><p>Attribute used to decorate a test method with arbitrary name/value pairs (&quot;traits&quot;).</p>
+</section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="Xunit.IAsyncLifetime.html">IAsyncLifetime</a></h4>
+      <section><p>Used to provide asynchronous lifetime functionality. Currently supported:</p>
+<ul>
+<li>Test classes</li>
+<li>Classes used in <a class="xref" href="Xunit.IClassFixture-1.html">IClassFixture&lt;TFixture&gt;</a></li>
+<li>Classes used in <a class="xref" href="Xunit.ICollectionFixture-1.html">ICollectionFixture&lt;TFixture&gt;</a>.</li>
+</ul>
+</section>
+      <h4><a class="xref" href="Xunit.IClassFixture-1.html">IClassFixture&lt;TFixture&gt;</a></h4>
+      <section><p>Used to decorate xUnit.net test classes and collections to indicate a test which has
+per-test-class fixture data. An instance of the fixture data is initialized just before
+the first test in the class is run, and if it implements IDisposable, is disposed
+after the last test in the class is run. To gain access to the fixture data from
+inside the test, a constructor argument should be added to the test class which
+exactly matches the <code data-dev-comment-type="typeparamref" class="typeparamref">TFixture</code>. Class fixtures must have a
+single parameterless constructor, and may take collection fixture types as constructor
+arguments.</p>
+</section>
+      <h4><a class="xref" href="Xunit.ICollectionFixture-1.html">ICollectionFixture&lt;TFixture&gt;</a></h4>
+      <section><p>Used to decorate xUnit.net test classes and collections to indicate a test which has
+per-test-collection fixture data. An instance of the fixture data is initialized just before
+the first test in the collection is run, and if it implements IDisposable, is disposed
+after the last test in the collection is run. To gain access to the fixture data from
+inside the test, a constructor argument should be added to the test class which
+exactly matches the <code data-dev-comment-type="typeparamref" class="typeparamref">TFixture</code>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.ITestCollectionOrderer.html">ITestCollectionOrderer</a></h4>
+      <section><p>A class implements this interface to participate in ordering tests
+for the test runner. Test collection orderers are applied using the
+<a class="xref" href="Xunit.TestCollectionOrdererAttribute.html">TestCollectionOrdererAttribute</a>, which can be applied at
+the assembly level.</p>
+</section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="Xunit.CollectionBehavior.html">CollectionBehavior</a></h4>
+      <section><p>Defines the built-in behavior types for collections in xUnit.net.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestMethodDisplay.html">TestMethodDisplay</a></h4>
+      <section><p>Indicates the default display name format for test methods.</p>
+</section>
+      <h4><a class="xref" href="Xunit.TestMethodDisplayOptions.html">TestMethodDisplayOptions</a></h4>
+      <section><p>Indicates the method display options for test methods.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

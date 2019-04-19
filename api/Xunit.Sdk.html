@@ -1,0 +1,486 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace Xunit.Sdk
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace Xunit.Sdk
+   ">
+    <meta name="generator" content="docfx 2.41.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Xunit.Sdk">
+  
+  <h1 id="Xunit_Sdk" data-uid="Xunit.Sdk" class="text-break">Namespace Xunit.Sdk
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="Xunit.Sdk.AfterTestFinished.html">AfterTestFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:IAfterTestFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.AfterTestStarting.html">AfterTestStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:IAfterTestStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.AllException.html">AllException</a></h4>
+      <section><p>Exception thrown when an All assertion has one or more items fail an assertion.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.AssemblyTraitDiscoverer.html">AssemblyTraitDiscoverer</a></h4>
+      <section><p>The implementation of <a class="xref" href="Xunit.Sdk.ITraitDiscoverer.html">ITraitDiscoverer</a> which returns the trait values
+for <a class="xref" href="Xunit.AssemblyTraitAttribute.html">AssemblyTraitAttribute</a>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.AssertActualExpectedException.html">AssertActualExpectedException</a></h4>
+      <section><p>Base class for exceptions that have actual and expected values</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.AssertCollectionCountException.html">AssertCollectionCountException</a></h4>
+      <section><p>Exception thrown when the collection did not contain exactly the given number element.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.BeforeAfterTestAttribute.html">BeforeAfterTestAttribute</a></h4>
+      <section><p>Base attribute which indicates a test method interception (allows code to be run before and
+after the test is run).</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.BeforeTestFinished.html">BeforeTestFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:IBeforeTestFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.BeforeTestStarting.html">BeforeTestStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:IBeforeTestStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.CollectionException.html">CollectionException</a></h4>
+      <section><p>Exception thrown when Assert.Collection fails.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.ContainsException.html">ContainsException</a></h4>
+      <section><p>Exception thrown when a collection unexpectedly does not contain the expected value.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.DataAttribute.html">DataAttribute</a></h4>
+      <section><p>Abstract attribute which represents a data source for a data theory.
+Data source providers derive from this attribute and implement GetData
+to return the data for the theory.
+Caution: the property is completely enumerated by .ToList() before any test is run. Hence it should return independent object sets.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.DataDiscoverer.html">DataDiscoverer</a></h4>
+      <section><p>Default implementation of <a class="xref" href="Xunit.Sdk.IDataDiscoverer.html">IDataDiscoverer</a>. Uses reflection to find the
+data associated with <a class="xref" href="Xunit.Sdk.DataAttribute.html">DataAttribute</a>; may return <code>null</code> when called
+without reflection-based abstraction implementations.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.DataDiscovererAttribute.html">DataDiscovererAttribute</a></h4>
+      <section><p>An attribute used to decorate classes which derive from <a class="xref" href="Xunit.Sdk.DataAttribute.html">DataAttribute</a>,
+to indicate how data elements should be discovered.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.DiagnosticMessage.html">DiagnosticMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:IDiagnosticMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.DiscoveryCompleteMessage.html">DiscoveryCompleteMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:IDiscoveryCompleteMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.DoesNotContainException.html">DoesNotContainException</a></h4>
+      <section><p>Exception thrown when a collection unexpectedly contains the expected value.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.DoesNotMatchException.html">DoesNotMatchException</a></h4>
+      <section><p>Exception thrown when a string unexpectedly matches a regular expression.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.EmptyException.html">EmptyException</a></h4>
+      <section><p>Exception thrown when a collection is unexpectedly not empty.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.EndsWithException.html">EndsWithException</a></h4>
+      <section><p>Exception thrown when a string does not end with the expected value.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.EqualException.html">EqualException</a></h4>
+      <section><p>Exception thrown when two values are unexpectedly not equal.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.ErrorMessage.html">ErrorMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:IErrorMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.ExceptionAggregator.html">ExceptionAggregator</a></h4>
+      <section><p>Aggregates exceptions. Intended to run one or more code blocks, and collect the
+exceptions thrown by those code blocks.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.ExceptionUtility.html">ExceptionUtility</a></h4>
+      <section><p>Utility classes for dealing with Exception objects.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.FalseException.html">FalseException</a></h4>
+      <section><p>Exception thrown when a value is unexpectedly true.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.InlineDataDiscoverer.html">InlineDataDiscoverer</a></h4>
+      <section><p>Implementation of <a class="xref" href="Xunit.Sdk.IDataDiscoverer.html">IDataDiscoverer</a> used to discover the data
+provided by <a class="xref" href="Xunit.InlineDataAttribute.html">InlineDataAttribute</a>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.InRangeException.html">InRangeException</a></h4>
+      <section><p>Exception thrown when a value is unexpectedly not in the given range.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.IsAssignableFromException.html">IsAssignableFromException</a></h4>
+      <section><p>Exception thrown when the value is unexpectedly not of the given type or a derived type.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.IsNotTypeException.html">IsNotTypeException</a></h4>
+      <section><p>Exception thrown when the value is unexpectedly of the exact given type.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.IsTypeException.html">IsTypeException</a></h4>
+      <section><p>Exception thrown when the value is unexpectedly not of the exact given type.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.LongLivedMarshalByRefObject.html">LongLivedMarshalByRefObject</a></h4>
+      <section><p>Base class for all long-lived objects that may cross over an AppDomain.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.MatchesException.html">MatchesException</a></h4>
+      <section><p>Exception thrown when a string does not match a regular expression.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.MemberDataDiscoverer.html">MemberDataDiscoverer</a></h4>
+      <section><p>Implementation of <a class="xref" href="Xunit.Sdk.IDataDiscoverer.html">IDataDiscoverer</a> for discovering <a class="xref" href="Xunit.MemberDataAttribute.html">MemberDataAttribute</a>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.NotEmptyException.html">NotEmptyException</a></h4>
+      <section><p>Exception thrown when a collection is unexpectedly empty.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.NotEqualException.html">NotEqualException</a></h4>
+      <section><p>Exception thrown when two values are unexpectedly equal.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.NotInRangeException.html">NotInRangeException</a></h4>
+      <section><p>Exception thrown when a value is unexpectedly in the given range.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.NotNullException.html">NotNullException</a></h4>
+      <section><p>Exception thrown when an object is unexpectedly null.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.NotSameException.html">NotSameException</a></h4>
+      <section><p>Exception thrown when two values are unexpected the same instance.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.NullException.html">NullException</a></h4>
+      <section><p>Exception thrown when an object reference is unexpectedly not null.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.NullMessageSink.html">NullMessageSink</a></h4>
+      <section><p>An implementation of <see cref="!:IMessageSink"></see> and <span class="xref">Xunit.IMessageSinkWithTypes</span> that
+ignores all messages.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.ParameterCountMismatchException.html">ParameterCountMismatchException</a></h4>
+      <section><p>Exception to be thrown from theory execution when the number of
+parameter values does not the test method signature.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.PlatformSpecificAssemblyAttribute.html">PlatformSpecificAssemblyAttribute</a></h4>
+      <section><p>Marks an assembly as a platform specific assembly for use with xUnit.net. Type references from
+such assemblies are allowed to use a special suffix (&quot;My.Assembly.{Platform}&quot;), which will
+automatically be translated into the correct platform-specific name (&quot;My.Assembly.desktop&quot;,
+&quot;My.Assembly.win8&quot;, etc.). This affects both extensibility points which require specifying
+a string-based type name and assembly, as well as serialization.</p>
+<p>In v2.1 and later, the supported platform target names include:</p>
+<p>&quot;desktop&quot; (for desktop and PCL tests),
+&quot;dotnet&quot; (everything else).</p>
+<p>In v2.0, the following names were also supported:</p>
+<p>&quot;iOS-Universal&quot; (for Xamarin test projects targeting iOS),
+&quot;MonoAndroid&quot; (for Xamarin MonoAndroid tests),
+&quot;MonoTouch&quot; (for Xamarin MonoTouch tests),
+&quot;universal&quot; (for Windows Phone 8.1 and Windows 8.1 tests),
+&quot;win8&quot; (for Windows 8 tests),
+&quot;wp8&quot; (for Windows Phone 8 Silverlight tests).</p>
+<p>For backward compatibility reasons, the v2.1 runners will support tests linked against
+the v2.0 execution libraries.</p>
+<p>Note that file names may be case sensitive (when running on platforms with case sensitive
+file systems like Linux), so ensure that your assembly file name casing is consistent, and
+that you use the suffixes here with the exact case shown.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.ProperSubsetException.html">ProperSubsetException</a></h4>
+      <section><p>Exception thrown when a set is not a proper subset of another set.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.ProperSupersetException.html">ProperSupersetException</a></h4>
+      <section><p>Exception thrown when a set is not a proper superset of another set.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.PropertyChangedException.html">PropertyChangedException</a></h4>
+      <section><p>Exception thrown when code unexpectedly fails change a property.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.RaisesException.html">RaisesException</a></h4>
+      <section><p>Exception thrown when code unexpectedly fails to raise an event.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.RunSummary.html">RunSummary</a></h4>
+      <section><p>Represents the statistical summary from a run of one or more tests.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.SameException.html">SameException</a></h4>
+      <section><p>Exception thrown when two object references are unexpectedly not the same instance.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.SingleException.html">SingleException</a></h4>
+      <section><p>Exception thrown when the collection did not contain exactly one element.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.SourceInformation.html">SourceInformation</a></h4>
+      <section><p>Default implementation of <see cref="!:ISourceInformation"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.StartsWithException.html">StartsWithException</a></h4>
+      <section><p>Exception thrown when a string does not start with the expected value.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.SubsetException.html">SubsetException</a></h4>
+      <section><p>Exception thrown when a set is not a subset of another set.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.SupersetException.html">SupersetException</a></h4>
+      <section><p>Exception thrown when a set is not a superset of another set.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestAssemblyCleanupFailure.html">TestAssemblyCleanupFailure</a></h4>
+      <section><p>Default implementation of <a class="xref" href="Xunit.Sdk.TestAssemblyCleanupFailure.html">TestAssemblyCleanupFailure</a>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestAssemblyFinished.html">TestAssemblyFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestAssemblyFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestAssemblyMessage.html">TestAssemblyMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestAssemblyMessage"></see> and <see cref="!:IExecutionMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestAssemblyStarting.html">TestAssemblyStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestAssemblyStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestCaseCleanupFailure.html">TestCaseCleanupFailure</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCaseCleanupFailure"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestCaseDiscoveryMessage.html">TestCaseDiscoveryMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCaseDiscoveryMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestCaseFinished.html">TestCaseFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCaseFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestCaseMessage.html">TestCaseMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCaseMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestCaseStarting.html">TestCaseStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCaseStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestClassCleanupFailure.html">TestClassCleanupFailure</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassCleanupFailure"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestClassConstructionFinished.html">TestClassConstructionFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassConstructionFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestClassConstructionStarting.html">TestClassConstructionStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassConstructionStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestClassDisposeFinished.html">TestClassDisposeFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassDisposeFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestClassDisposeStarting.html">TestClassDisposeStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassDisposeStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestClassFinished.html">TestClassFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestClassMessage.html">TestClassMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestClassStarting.html">TestClassStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestClassStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestCleanupFailure.html">TestCleanupFailure</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCleanupFailure"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestCollectionCleanupFailure.html">TestCollectionCleanupFailure</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCollectionCleanupFailure"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestCollectionFinished.html">TestCollectionFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCollectionFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestCollectionMessage.html">TestCollectionMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCollectionMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestCollectionStarting.html">TestCollectionStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestCollectionStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestFailed.html">TestFailed</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestFailed"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestFinished.html">TestFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestFrameworkDiscovererAttribute.html">TestFrameworkDiscovererAttribute</a></h4>
+      <section><p>Decorates an implementation of <see cref="!:ITestFrameworkDiscoverer"></see> that is used to
+determine which test framework is used to discover and run tests.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestMessage.html">TestMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestMethodCleanupFailure.html">TestMethodCleanupFailure</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestMethodCleanupFailure"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestMethodFinished.html">TestMethodFinished</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestMethodFinished"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestMethodMessage.html">TestMethodMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestMethodMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestMethodStarting.html">TestMethodStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestMethodStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestOutput.html">TestOutput</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestOutput"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestPassed.html">TestPassed</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestPassed"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestResultMessage.html">TestResultMessage</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestResultMessage"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestSkipped.html">TestSkipped</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestSkipped"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestStarting.html">TestStarting</a></h4>
+      <section><p>Default implementation of <see cref="!:ITestStarting"></see>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.ThrowsException.html">ThrowsException</a></h4>
+      <section><p>Exception thrown when code unexpectedly fails to throw an exception.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TraitDiscoverer.html">TraitDiscoverer</a></h4>
+      <section><p>The implementation of <a class="xref" href="Xunit.Sdk.ITraitDiscoverer.html">ITraitDiscoverer</a> which returns the trait values
+for <a class="xref" href="Xunit.TraitAttribute.html">TraitAttribute</a>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TraitDiscovererAttribute.html">TraitDiscovererAttribute</a></h4>
+      <section><p>An attribute used to decorate classes which implement <a class="xref" href="Xunit.Sdk.ITraitAttribute.html">ITraitAttribute</a>,
+to indicate how trait values should be discovered. The discoverer type must implement
+<a class="xref" href="Xunit.Sdk.ITraitDiscoverer.html">ITraitDiscoverer</a>.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TrueException.html">TrueException</a></h4>
+      <section><p>Exception thrown when a value is unexpectedly false.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.XunitException.html">XunitException</a></h4>
+      <section><p>The base assert exception class</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.XunitTestCaseDiscovererAttribute.html">XunitTestCaseDiscovererAttribute</a></h4>
+      <section><p>An attribute used to decorate classes which derive from <a class="xref" href="Xunit.FactAttribute.html">FactAttribute</a>,
+to indicate how test cases should be discovered.</p>
+</section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="Xunit.Sdk.IDataDiscoverer.html">IDataDiscoverer</a></h4>
+      <section><p>This class is responsible for discovering the data available in an implementation
+of <a class="xref" href="Xunit.Sdk.DataAttribute.html">DataAttribute</a>. The discovery process may not always have access
+to reflection (i.e., running in Resharper), so the discoverer must make a best
+effort to return data, but may return null when there is not enough information
+available (for example, if reflection is required to answer the question).</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.IMessageBus.html">IMessageBus</a></h4>
+      <section><p>Used by discovery, execution, and extensibility code to send messages to the runner.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.ITestCaseOrderer.html">ITestCaseOrderer</a></h4>
+      <section><p>A class implements this interface to participate in ordering tests
+for the test runner. Test case orderers are applied using the
+<a class="xref" href="Xunit.TestCaseOrdererAttribute.html">TestCaseOrdererAttribute</a>, which can be applied at
+the assembly, test collection, and test class level.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.ITestFrameworkAttribute.html">ITestFrameworkAttribute</a></h4>
+      <section><p>Marker interface that must be implemented by test framework attributes, so
+that the test framework attribute discoverer can find them.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.ITestFrameworkTypeDiscoverer.html">ITestFrameworkTypeDiscoverer</a></h4>
+      <section><p>Interface to be implemented by classes which are used to discover the test framework.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.ITraitAttribute.html">ITraitAttribute</a></h4>
+      <section><p>Marker interface used by attributes which provide trait data.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.ITraitDiscoverer.html">ITraitDiscoverer</a></h4>
+      <section><p>This interface is implemented by discoverers that provide trait values to
+xUnit.net v2 tests.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.IXunitTestCase.html">IXunitTestCase</a></h4>
+      <section><p>Represents a single test case from xUnit.net v2.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.IXunitTestCaseDiscoverer.html">IXunitTestCaseDiscoverer</a></h4>
+      <section><p>Interface to be implemented by classes which are used to discover tests cases attached
+to test methods that are attributed with <a class="xref" href="Xunit.FactAttribute.html">FactAttribute</a> (or a subclass).</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.IXunitTestCollectionFactory.html">IXunitTestCollectionFactory</a></h4>
+      <section><p>This interface is intended to be implemented by components which generate test collections.
+End users specify the desired test collection factory by applying <a class="xref" href="Xunit.CollectionBehaviorAttribute.html">CollectionBehaviorAttribute</a>
+at the assembly level. Classes which implement this interface must have a constructor
+that takes <see cref="!:ITestAssembly"></see> and <see cref="!:IMessageSink"></see>.</p>
+</section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="Xunit.Sdk.TestMethodDisplay.html">TestMethodDisplay</a></h4>
+      <section><p>Indicates the default display name format for test methods.</p>
+</section>
+      <h4><a class="xref" href="Xunit.Sdk.TestMethodDisplayOptions.html">TestMethodDisplayOptions</a></h4>
+      <section><p>Indicates the method display options for test methods.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

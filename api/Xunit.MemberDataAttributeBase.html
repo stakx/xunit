@@ -1,0 +1,419 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MemberDataAttributeBase
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MemberDataAttributeBase
+   ">
+    <meta name="generator" content="docfx 2.41.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Xunit.MemberDataAttributeBase">
+  
+  
+  <h1 id="Xunit_MemberDataAttributeBase" data-uid="Xunit.MemberDataAttributeBase" class="text-break">Class MemberDataAttributeBase
+  </h1>
+  <div class="markdown level0 summary"><p>Provides a base class for attributes that will provide member data. The member data must return
+something compatible with <see cref="!:IEnumerable"></see>.
+Caution: the property is completely enumerated by .ToList() before any test is run. Hence it should return independent object sets.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="Xunit.Sdk.DataAttribute.html">DataAttribute</a></div>
+    <div class="level2"><span class="xref">MemberDataAttributeBase</span></div>
+      <div class="level3"><a class="xref" href="Xunit.MemberDataAttribute.html">MemberDataAttribute</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Xunit.Sdk.DataAttribute.html#Xunit_Sdk_DataAttribute_Skip">DataAttribute.Skip</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Xunit.html">Xunit</a></h6>
+  <h6><strong>Assembly</strong>: xunit.core.dll</h6>
+  <h5 id="Xunit_MemberDataAttributeBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class MemberDataAttributeBase : DataAttribute</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/stakx/xunit/new/master/apiSpec/new?filename=Xunit_MemberDataAttributeBase__ctor_System_String_System_Object___.md&amp;value=---%0Auid%3A%20Xunit.MemberDataAttributeBase.%23ctor(System.String%2CSystem.Object%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/stakx/xunit/blob/master/src/xunit.core/MemberDataAttributeBase.cs/#L24">View Source</a>
+  </span>
+  <a id="Xunit_MemberDataAttributeBase__ctor_" data-uid="Xunit.MemberDataAttributeBase.#ctor*"></a>
+  <h4 id="Xunit_MemberDataAttributeBase__ctor_System_String_System_Object___" data-uid="Xunit.MemberDataAttributeBase.#ctor(System.String,System.Object[])">MemberDataAttributeBase(String, Object[])</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Xunit.MemberDataAttributeBase.html">MemberDataAttributeBase</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected MemberDataAttributeBase(string memberName, object[] parameters)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">memberName</span></td>
+        <td><p>The name of the public static member on the test class that will provide the test data</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><span class="parametername">parameters</span></td>
+        <td><p>The parameters for the member (only supported for methods; ignored for everything else)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/stakx/xunit/new/master/apiSpec/new?filename=Xunit_MemberDataAttributeBase_DisableDiscoveryEnumeration.md&amp;value=---%0Auid%3A%20Xunit.MemberDataAttributeBase.DisableDiscoveryEnumeration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/stakx/xunit/blob/master/src/xunit.core/MemberDataAttributeBase.cs/#L35">View Source</a>
+  </span>
+  <a id="Xunit_MemberDataAttributeBase_DisableDiscoveryEnumeration_" data-uid="Xunit.MemberDataAttributeBase.DisableDiscoveryEnumeration*"></a>
+  <h4 id="Xunit_MemberDataAttributeBase_DisableDiscoveryEnumeration" data-uid="Xunit.MemberDataAttributeBase.DisableDiscoveryEnumeration">DisableDiscoveryEnumeration</h4>
+  <div class="markdown level1 summary"><p>Returns <code>true</code> if the data attribute wants to skip enumerating data during discovery.
+This will cause the theory to yield a single test case for all data, and the data discovery
+will be during test execution instead of discovery.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool DisableDiscoveryEnumeration { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/stakx/xunit/new/master/apiSpec/new?filename=Xunit_MemberDataAttributeBase_MemberName.md&amp;value=---%0Auid%3A%20Xunit.MemberDataAttributeBase.MemberName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/stakx/xunit/blob/master/src/xunit.core/MemberDataAttributeBase.cs/#L40">View Source</a>
+  </span>
+  <a id="Xunit_MemberDataAttributeBase_MemberName_" data-uid="Xunit.MemberDataAttributeBase.MemberName*"></a>
+  <h4 id="Xunit_MemberDataAttributeBase_MemberName" data-uid="Xunit.MemberDataAttributeBase.MemberName">MemberName</h4>
+  <div class="markdown level1 summary"><p>Gets the member name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MemberName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/stakx/xunit/new/master/apiSpec/new?filename=Xunit_MemberDataAttributeBase_MemberType.md&amp;value=---%0Auid%3A%20Xunit.MemberDataAttributeBase.MemberType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/stakx/xunit/blob/master/src/xunit.core/MemberDataAttributeBase.cs/#L46">View Source</a>
+  </span>
+  <a id="Xunit_MemberDataAttributeBase_MemberType_" data-uid="Xunit.MemberDataAttributeBase.MemberType*"></a>
+  <h4 id="Xunit_MemberDataAttributeBase_MemberType" data-uid="Xunit.MemberDataAttributeBase.MemberType">MemberType</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the type to retrieve the member from. If not set, then the property will be
+retrieved from the unit test class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Type MemberType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/stakx/xunit/new/master/apiSpec/new?filename=Xunit_MemberDataAttributeBase_Parameters.md&amp;value=---%0Auid%3A%20Xunit.MemberDataAttributeBase.Parameters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/stakx/xunit/blob/master/src/xunit.core/MemberDataAttributeBase.cs/#L51">View Source</a>
+  </span>
+  <a id="Xunit_MemberDataAttributeBase_Parameters_" data-uid="Xunit.MemberDataAttributeBase.Parameters*"></a>
+  <h4 id="Xunit_MemberDataAttributeBase_Parameters" data-uid="Xunit.MemberDataAttributeBase.Parameters">Parameters</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the parameters passed to the member. Only supported for static methods.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object[] Parameters { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/stakx/xunit/new/master/apiSpec/new?filename=Xunit_MemberDataAttributeBase_ConvertDataItem_MethodInfo_System_Object_.md&amp;value=---%0Auid%3A%20Xunit.MemberDataAttributeBase.ConvertDataItem(MethodInfo%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/stakx/xunit/blob/master/src/xunit.core/MemberDataAttributeBase.cs/#L83">View Source</a>
+  </span>
+  <a id="Xunit_MemberDataAttributeBase_ConvertDataItem_" data-uid="Xunit.MemberDataAttributeBase.ConvertDataItem*"></a>
+  <h4 id="Xunit_MemberDataAttributeBase_ConvertDataItem_MethodInfo_System_Object_" data-uid="Xunit.MemberDataAttributeBase.ConvertDataItem(MethodInfo,System.Object)">ConvertDataItem(MethodInfo, Object)</h4>
+  <div class="markdown level1 summary"><p>Converts an item yielded by the data member to an object array, for return from <a class="xref" href="Xunit.MemberDataAttributeBase.html#Xunit_MemberDataAttributeBase_GetData_MethodInfo_">GetData(MethodInfo)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract object[] ConvertDataItem(MethodInfo testMethod, object item)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MethodInfo</span></td>
+        <td><span class="parametername">testMethod</span></td>
+        <td><p>The method that is being tested.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">item</span></td>
+        <td><p>An item yielded from the data member.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]</td>
+        <td><p>An <span class="xref">object[]</span> suitable for return from <a class="xref" href="Xunit.MemberDataAttributeBase.html#Xunit_MemberDataAttributeBase_GetData_MethodInfo_">GetData(MethodInfo)</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/stakx/xunit/new/master/apiSpec/new?filename=Xunit_MemberDataAttributeBase_GetData_MethodInfo_.md&amp;value=---%0Auid%3A%20Xunit.MemberDataAttributeBase.GetData(MethodInfo)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/stakx/xunit/blob/master/src/xunit.core/MemberDataAttributeBase.cs/#L54">View Source</a>
+  </span>
+  <a id="Xunit_MemberDataAttributeBase_GetData_" data-uid="Xunit.MemberDataAttributeBase.GetData*"></a>
+  <h4 id="Xunit_MemberDataAttributeBase_GetData_MethodInfo_" data-uid="Xunit.MemberDataAttributeBase.GetData(MethodInfo)">GetData(MethodInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override IEnumerable&lt;object[]&gt; GetData(MethodInfo testMethod)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">MethodInfo</span></td>
+        <td><span class="parametername">testMethod</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a>[]&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Xunit.Sdk.DataAttribute.html#Xunit_Sdk_DataAttribute_GetData_MethodInfo_">DataAttribute.GetData(MethodInfo)</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/stakx/xunit/new/master/apiSpec/new?filename=Xunit_MemberDataAttributeBase.md&amp;value=---%0Auid%3A%20Xunit.MemberDataAttributeBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/stakx/xunit/blob/master/src/xunit.core/MemberDataAttributeBase.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

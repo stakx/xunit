@@ -1,0 +1,2565 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/stakx/Projects/xunit/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.AfterTestFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.AfterTestFinished.html",
+          "hash": "MPU1+5/wbacqwoflrbUncw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.AfterTestStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.AfterTestStarting.html",
+          "hash": "aCD1TlPrktN5Fm2AcOU2fQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.AssemblyTraitAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.AssemblyTraitAttribute.html",
+          "hash": "KGxEDflRS3eQuana9gVx1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Assert.RaisedEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Assert.RaisedEvent-1.html",
+          "hash": "dEbTNIjui4WsgkszJaQDew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Assert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Assert.html",
+          "hash": "5eKvLYIWsgLnuzniNX6qow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.BeforeTestFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.BeforeTestFinished.html",
+          "hash": "9AZ6uTePRili9W54a7MqeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.BeforeTestStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.BeforeTestStarting.html",
+          "hash": "NnJnLGehhGp8vB3x9GiFeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.ClassDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.ClassDataAttribute.html",
+          "hash": "2nMhG/45AzzqPPo3TlYTPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.CollectionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.CollectionAttribute.html",
+          "hash": "hT6LEul1hxd3jzYo7rUeeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.CollectionBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.CollectionBehavior.html",
+          "hash": "SCnEJfIXyaCUjww4RgnToQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.CollectionBehaviorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.CollectionBehaviorAttribute.html",
+          "hash": "97IuzsFRswu5G7MOLriWpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.CollectionDefinitionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.CollectionDefinitionAttribute.html",
+          "hash": "zPG2lg7M+2qM/A6gfUWpxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.DiagnosticMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.DiagnosticMessage.html",
+          "hash": "vvgs4Od11PrC2iYRoy+N2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.DiscoveryCompleteMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.DiscoveryCompleteMessage.html",
+          "hash": "xoSqEG6nsVSg8TIPesZbTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.ErrorMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.ErrorMessage.html",
+          "hash": "tCHHt5GS8RHiAPQ9evNtMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.ExceptionUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.ExceptionUtility.html",
+          "hash": "Wo3COWNbI5KSK26kFecW3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Extensions.PropertyDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Extensions.PropertyDataAttribute.html",
+          "hash": "12Gxx9fHBSJIrPgS8j/ecQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Extensions.html",
+          "hash": "OKqIYzLRheQK3Hdjrv2d5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.FactAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.FactAttribute.html",
+          "hash": "k56n8LqKz8XRD3dn07mj9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.IAsyncLifetime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.IAsyncLifetime.html",
+          "hash": "oj7EcplFFJpDYtHM1zILuA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.IClassFixture-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.IClassFixture-1.html",
+          "hash": "AsD+L2w25pmgXwQZTONJnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.ICollectionFixture-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.ICollectionFixture-1.html",
+          "hash": "f/2PPtS3g6zGzwooGJI+cw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.ITestCollectionOrderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.ITestCollectionOrderer.html",
+          "hash": "o1S6z9Q3QBAhCEwMGHO91Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.InlineDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.InlineDataAttribute.html",
+          "hash": "LDKaXemKfYe/aOm40o6nlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.LongLivedMarshalByRefObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.LongLivedMarshalByRefObject.html",
+          "hash": "MpBjRViFEgCmmUcOo5ojDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.MemberDataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.MemberDataAttribute.html",
+          "hash": "vTVWwC+dpkq60KY69c5DSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.MemberDataAttributeBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.MemberDataAttributeBase.html",
+          "hash": "YZa3f6y+lI0oIGPb2S/6Bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.NullMessageSink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.NullMessageSink.html",
+          "hash": "0WHVjDGBYdCci0mXR6s6Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Record.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Record.html",
+          "hash": "d8kXSlC+8KU1UlvU6KHTDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Runner.MSBuild.CrossPlatform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Runner.MSBuild.CrossPlatform.html",
+          "hash": "V5R6Aa3PedKHH3i1rl1eFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Runner.MSBuild.DiagnosticMessageSink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Runner.MSBuild.DiagnosticMessageSink.html",
+          "hash": "R2d3jC7FqAcI6D2PtjuAlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Runner.MSBuild.MSBuildLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Runner.MSBuild.MSBuildLogger.html",
+          "hash": "UfQinZq304QE12iw5LtRjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Runner.MSBuild.TraitParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Runner.MSBuild.TraitParser.html",
+          "hash": "21X0d7pHwdmVGv5FMiQapA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Runner.MSBuild.xunit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Runner.MSBuild.xunit.html",
+          "hash": "dFNfxeI5IFErssuD28v5lA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Runner.MSBuild.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Runner.MSBuild.html",
+          "hash": "EtH0bTPyrzLpBcUNKnInEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Runner.TdNet.DiagnosticMessageSink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Runner.TdNet.DiagnosticMessageSink.html",
+          "hash": "b3LAX6Y+KsYSLorgwAYwIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Runner.TdNet.ResultSink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Runner.TdNet.ResultSink.html",
+          "hash": "b7Godau0b+uTiwcYviGaFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Runner.TdNet.TdNetRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Runner.TdNet.TdNetRunner.html",
+          "hash": "5tw2htYhWPDdyXCZ61kD2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Runner.TdNet.TdNetRunnerHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Runner.TdNet.TdNetRunnerHelper.html",
+          "hash": "IlL5u+kGHXY2O6AK3AeyrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Runner.TdNet.XunitExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Runner.TdNet.XunitExtension.html",
+          "hash": "Mc4mMVLc0XDbP3qj/XwagA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Runner.TdNet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Runner.TdNet.html",
+          "hash": "nS2n95GcKKG5TgCY3qHCDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.AfterTestFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.AfterTestFinished.html",
+          "hash": "5gZiMh0FuQUC34Qoa7C8jQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.AfterTestStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.AfterTestStarting.html",
+          "hash": "U+hyD0wU8QliFAd8hGEUSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.AllException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.AllException.html",
+          "hash": "bsOrJ12YTULAxjviWNQKzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.AssemblyTraitDiscoverer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.AssemblyTraitDiscoverer.html",
+          "hash": "WtN/4tVVPFq5+s4AF+mwQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.AssertActualExpectedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.AssertActualExpectedException.html",
+          "hash": "9G1wdy6kiz4iY+juDDHFbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.AssertCollectionCountException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.AssertCollectionCountException.html",
+          "hash": "Lru6Ixn5IbudxppCSO6ZoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.BeforeAfterTestAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.BeforeAfterTestAttribute.html",
+          "hash": "WdpmrW3lRQz8jN1Z24KBNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.BeforeTestFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.BeforeTestFinished.html",
+          "hash": "gQ4O40bfYcXWvXirtSLg7w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.BeforeTestStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.BeforeTestStarting.html",
+          "hash": "bHuss6QJQACEAtUgsDeUNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.CollectionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.CollectionException.html",
+          "hash": "lSUo0OxPxMiHwLjajzOytg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.ContainsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.ContainsException.html",
+          "hash": "/CVwz9FWtmYhoO8lsvn13A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.DataAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.DataAttribute.html",
+          "hash": "tscMQWZbueiHwhG2Q9rHDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.DataDiscoverer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.DataDiscoverer.html",
+          "hash": "orqQXo//cCrMm9g0mInDgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.DataDiscovererAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.DataDiscovererAttribute.html",
+          "hash": "5SmPEJmJS/Zf/8ArQLAKuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.DiagnosticMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.DiagnosticMessage.html",
+          "hash": "P5IQwGLN/kenh+M8sQoTgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.DiscoveryCompleteMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.DiscoveryCompleteMessage.html",
+          "hash": "duF9FHf7ZUvN12V3qUFhMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.DoesNotContainException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.DoesNotContainException.html",
+          "hash": "khPLS8ODwQmDog5M1JApvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.DoesNotMatchException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.DoesNotMatchException.html",
+          "hash": "w5ukSjCI241HQ0Wc6jug1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.EmptyException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.EmptyException.html",
+          "hash": "bSnKRObRHZszXhbso8P0nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.EndsWithException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.EndsWithException.html",
+          "hash": "00qdGhrskb/QW1w9FapxDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.EqualException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.EqualException.html",
+          "hash": "4NUweAq8atg3NfHEbpTqiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.ErrorMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.ErrorMessage.html",
+          "hash": "w0BaxvuBQ79lpL7ywycZqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.ExceptionAggregator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.ExceptionAggregator.html",
+          "hash": "pirPeKAlEX9Jvby0ENRsRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.ExceptionUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.ExceptionUtility.html",
+          "hash": "ayyyzbXb35AWsJ/wN7GdwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.FalseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.FalseException.html",
+          "hash": "hk6yY+o+4NBtqXFLU6YVQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.IDataDiscoverer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.IDataDiscoverer.html",
+          "hash": "vmHGgJQ9PjFLpDkaWGPjVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.IMessageBus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.IMessageBus.html",
+          "hash": "oXD5cXCRaOkaj6HZIVLVvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.ITestCaseOrderer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.ITestCaseOrderer.html",
+          "hash": "Kl+TM5YbC5j3jAppBe4Amw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.ITestFrameworkAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.ITestFrameworkAttribute.html",
+          "hash": "Xcrw5j4M1mGJw7RlEaGqbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.ITestFrameworkTypeDiscoverer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.ITestFrameworkTypeDiscoverer.html",
+          "hash": "wRksuUdH8aEyAlAlJ/fGsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.ITraitAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.ITraitAttribute.html",
+          "hash": "GNS8wfRHJZg3JYBh9iJHJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.ITraitDiscoverer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.ITraitDiscoverer.html",
+          "hash": "dWzFim+pzzF0LNJfgFzfLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.IXunitTestCase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.IXunitTestCase.html",
+          "hash": "wDBZ6eoE+7zlBjDgGuISxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.IXunitTestCaseDiscoverer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.IXunitTestCaseDiscoverer.html",
+          "hash": "fMviCd7tHGbqPP8JYkQhmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.IXunitTestCollectionFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.IXunitTestCollectionFactory.html",
+          "hash": "fQTNwc6ad+/xv0GscqfYXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.InRangeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.InRangeException.html",
+          "hash": "IzUOXyydRgaUmUG3TBpoSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.InlineDataDiscoverer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.InlineDataDiscoverer.html",
+          "hash": "2pkrWH8jFVolmnnCiNK7pQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.IsAssignableFromException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.IsAssignableFromException.html",
+          "hash": "s3FqzE3lI9hyoXASZPaPUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.IsNotTypeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.IsNotTypeException.html",
+          "hash": "qEBAtNjJUjEIJ86L+xnrzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.IsTypeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.IsTypeException.html",
+          "hash": "7kfA/3MtdKpu+bwyhfxSLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.LongLivedMarshalByRefObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.LongLivedMarshalByRefObject.html",
+          "hash": "la03kQ8lycanKVECT+jjiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.MatchesException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.MatchesException.html",
+          "hash": "NoEYZSRCGIS86rOw/RM6rA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.MemberDataDiscoverer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.MemberDataDiscoverer.html",
+          "hash": "nmVnsHFPKJGrQh0Fm4ExCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.NotEmptyException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.NotEmptyException.html",
+          "hash": "oiO0u/8US//r35TdCeGPUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.NotEqualException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.NotEqualException.html",
+          "hash": "bKnj0jhh2nV8T4Sogoa7Gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.NotInRangeException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.NotInRangeException.html",
+          "hash": "z7xdgZGthnSRlGKIzNeeaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.NotNullException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.NotNullException.html",
+          "hash": "RWyUY5yk7HHyMKny0/yjRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.NotSameException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.NotSameException.html",
+          "hash": "0o39fx+FARonmODLCCUQGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.NullException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.NullException.html",
+          "hash": "Y/4VfXPBu0azbsSyBt5K6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.NullMessageSink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.NullMessageSink.html",
+          "hash": "SiD4wFJ9P2MR5gWBsTB0Mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.ParameterCountMismatchException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.ParameterCountMismatchException.html",
+          "hash": "6/mtZcLhX9vd9wI6AAsGkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.PlatformSpecificAssemblyAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.PlatformSpecificAssemblyAttribute.html",
+          "hash": "zaAwL2hVkiiBdMh9YbT25Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.ProperSubsetException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.ProperSubsetException.html",
+          "hash": "ZWwPGiXKvX0kchmC8NcPYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.ProperSupersetException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.ProperSupersetException.html",
+          "hash": "v11qKlyWuIh4slK6m/ajlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.PropertyChangedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.PropertyChangedException.html",
+          "hash": "NwaQb0kv8tihxJv2tN//Pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.RaisesException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.RaisesException.html",
+          "hash": "vdAbUFgW5q4o2SKETPBLew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.RunSummary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.RunSummary.html",
+          "hash": "uaSf2ah33jXm3F/wyCNz9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.SameException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.SameException.html",
+          "hash": "tNKQ5F0RGpr7nnyFbBPL2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.SingleException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.SingleException.html",
+          "hash": "4YoAeFM8kZUMtp+aOz+Y2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.SourceInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.SourceInformation.html",
+          "hash": "+csV8+qt4c8ZiN+eCY5B3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.StartsWithException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.StartsWithException.html",
+          "hash": "yNg/X44dgxyM0VlelId6Ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.SubsetException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.SubsetException.html",
+          "hash": "a5yZEKyqDnOUlL1a0oqX6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.SupersetException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.SupersetException.html",
+          "hash": "Py3zD8ZLSljlNwamVIQ9ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestAssemblyCleanupFailure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestAssemblyCleanupFailure.html",
+          "hash": "9VxyepX+6pZnpyd81MF6eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestAssemblyFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestAssemblyFinished.html",
+          "hash": "qBdn7xmx7imyfjJ28TCcEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestAssemblyMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestAssemblyMessage.html",
+          "hash": "mIjFM+y4S+G24l0YeZJAkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestAssemblyStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestAssemblyStarting.html",
+          "hash": "bUmtitO3GsNjyUl+k5Sx9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestCaseCleanupFailure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestCaseCleanupFailure.html",
+          "hash": "Zi00H6YjRNcnfm6ku5tVhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestCaseDiscoveryMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestCaseDiscoveryMessage.html",
+          "hash": "qrPO8ZSJP2s2MyufOXflfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestCaseFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestCaseFinished.html",
+          "hash": "jY16MLMbq5JmnDjU4Mbflw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestCaseMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestCaseMessage.html",
+          "hash": "Ikmji+IABiffx7kEs6hXLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestCaseStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestCaseStarting.html",
+          "hash": "Zz8nTnNmF9f1b6ftaYL+og=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestClassCleanupFailure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestClassCleanupFailure.html",
+          "hash": "3N3LcOa++KjE/wa2A3ZR9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestClassConstructionFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestClassConstructionFinished.html",
+          "hash": "bht0GHJ+/K0RJXZ0c12Www=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestClassConstructionStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestClassConstructionStarting.html",
+          "hash": "sSeyYSg03fJLd47dOob2gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestClassDisposeFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestClassDisposeFinished.html",
+          "hash": "3bBcwKeKhjbrzMeFuVPHcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestClassDisposeStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestClassDisposeStarting.html",
+          "hash": "oVITN5AX4RPO2vDOjxSKFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestClassFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestClassFinished.html",
+          "hash": "mplFEyfmqbSaDC9tm71w8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestClassMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestClassMessage.html",
+          "hash": "NnsNkT/2MnmmKc7tuXds1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestClassStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestClassStarting.html",
+          "hash": "LPMvqMdz8YTmIlUlFAE3Rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestCleanupFailure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestCleanupFailure.html",
+          "hash": "VYjmgZfUJAVz/LCFrp2j/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestCollectionCleanupFailure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestCollectionCleanupFailure.html",
+          "hash": "Gy3AIgGd4dp8mF1/ACs5Tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestCollectionFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestCollectionFinished.html",
+          "hash": "S4AtDTiv4V7NOVgwpaTCKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestCollectionMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestCollectionMessage.html",
+          "hash": "1vfbkHB4lR8nUo6JULPoSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestCollectionStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestCollectionStarting.html",
+          "hash": "EfQFck8MVaGxUsMQVBN1KQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestFailed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestFailed.html",
+          "hash": "xZqfDF3iDVtRmkZ+ZM+55g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestFinished.html",
+          "hash": "bgGrDBeDhIYw47vjMopwvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestFrameworkDiscovererAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestFrameworkDiscovererAttribute.html",
+          "hash": "TWP/VQWDJF3q2EY7WMWYvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestMessage.html",
+          "hash": "p+/AZoO9ZjDDz+AWJyKXRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestMethodCleanupFailure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestMethodCleanupFailure.html",
+          "hash": "u//aPjWJw09IAkL3X62SHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestMethodDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestMethodDisplay.html",
+          "hash": "djfrQ8yVKCbw42EU+vzNdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestMethodDisplayOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestMethodDisplayOptions.html",
+          "hash": "DAAESCndaNlFroZ1nBk91g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestMethodFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestMethodFinished.html",
+          "hash": "qLc+iO5l4H3s9gUTJgm/Cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestMethodMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestMethodMessage.html",
+          "hash": "Nilw2wL+oY50sVjQkbW5RQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestMethodStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestMethodStarting.html",
+          "hash": "amUD4qD8Hm+mWhWo8cAneg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestOutput.html",
+          "hash": "wRuYcl113oy4JtyT2Rr6cQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestPassed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestPassed.html",
+          "hash": "z1myG4r+VZBJ59HqD3YOAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestResultMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestResultMessage.html",
+          "hash": "BUQrsr+W0zeJfrMfxHjBTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestSkipped.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestSkipped.html",
+          "hash": "rFc0d3eDcXk+mF/nsXyd/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TestStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TestStarting.html",
+          "hash": "yj5v9nECb5m9hj7UCSkicw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.ThrowsException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.ThrowsException.html",
+          "hash": "WatSU205s3BQDOd9RRfR0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TraitDiscoverer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TraitDiscoverer.html",
+          "hash": "A4ynEW7rgObcBdFKMgKjHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TraitDiscovererAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TraitDiscovererAttribute.html",
+          "hash": "7OIJg69WcL95lVlduqekkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.TrueException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.TrueException.html",
+          "hash": "8a4mNdoMrON6s+OvOmeS6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.XunitException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.XunitException.html",
+          "hash": "pQQvX/H3kFp8w+wE0U+tfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.XunitTestCaseDiscovererAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.XunitTestCaseDiscovererAttribute.html",
+          "hash": "go5nLdwF15wtK41ciE61Kw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.Sdk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.Sdk.html",
+          "hash": "6FVaDkyOjj+W/UaZsIbi7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.SourceInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.SourceInformation.html",
+          "hash": "DebprRT67yuka253byd1rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TeamCityDisplayNameFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TeamCityDisplayNameFormatter.html",
+          "hash": "3uZoKcAKsh1xTkOGHpFeAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestAssemblyCleanupFailure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestAssemblyCleanupFailure.html",
+          "hash": "uwj64fjFZCjvoJEV+S8O8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestAssemblyFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestAssemblyFinished.html",
+          "hash": "ZtNfEmLfj6ARf/oZddv88w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestAssemblyMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestAssemblyMessage.html",
+          "hash": "NbnDZCnBAMNOi22eIFnuJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestAssemblyStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestAssemblyStarting.html",
+          "hash": "xm9JAnkRgFvxMlF7rdQKaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestCaseCleanupFailure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestCaseCleanupFailure.html",
+          "hash": "M/dK68KAzPE8c1WpYVmP+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestCaseDiscoveryMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestCaseDiscoveryMessage.html",
+          "hash": "FRq/xxPI411TcHlf2BBQdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestCaseFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestCaseFinished.html",
+          "hash": "YrCE2GbgFSPbN2MIK1q3gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestCaseMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestCaseMessage.html",
+          "hash": "a9/6XGaOxVLptP0xgatifg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestCaseOrdererAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestCaseOrdererAttribute.html",
+          "hash": "PGPSNfBR4thNOuXGtgaz2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestCaseStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestCaseStarting.html",
+          "hash": "wz8ouyX2qqbhKQZxVgehwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestClassCleanupFailure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestClassCleanupFailure.html",
+          "hash": "bEcPASIeSAcoKB1CCQ6MOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestClassConstructionFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestClassConstructionFinished.html",
+          "hash": "WvaZN/8OgDrBf2c3Vd8jng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestClassConstructionStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestClassConstructionStarting.html",
+          "hash": "pO+9hyKoyyewt2KKDZDGfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestClassDisposeFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestClassDisposeFinished.html",
+          "hash": "411vCPOOyAqgM8ijXxCQkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestClassDisposeStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestClassDisposeStarting.html",
+          "hash": "Yp1aELU0xKjrOCnJ1h/4oA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestClassFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestClassFinished.html",
+          "hash": "Zf/XH0uYBb0+fUr+ihlpVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestClassMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestClassMessage.html",
+          "hash": "pCwFSuy6TadNLqXxUcuKAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestClassStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestClassStarting.html",
+          "hash": "VajdAMmYDxHW1m+uiGMHHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestCleanupFailure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestCleanupFailure.html",
+          "hash": "wMwfUmPdftxkmKr/Iid4XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestCollectionCleanupFailure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestCollectionCleanupFailure.html",
+          "hash": "UckffFWojh6LnidnD2HXqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestCollectionFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestCollectionFinished.html",
+          "hash": "APD+IHh9KBSd0sLI5k5daA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestCollectionMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestCollectionMessage.html",
+          "hash": "pTS0G2W+2uH338dL0NouLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestCollectionOrdererAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestCollectionOrdererAttribute.html",
+          "hash": "PGOhuGmUxN0UDO+NpHltTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestCollectionStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestCollectionStarting.html",
+          "hash": "cC7zxDGQv2f/j0ziLOB7VQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestFailed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestFailed.html",
+          "hash": "F170OqJcgxCExO4PQ5ZF2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestFinished.html",
+          "hash": "OMlaVBZhc5ZeBWRbb4Jrmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestFrameworkAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestFrameworkAttribute.html",
+          "hash": "XQVshlWmjrjps/yUJ2GoUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestMessage.html",
+          "hash": "2Ec48BUCD5oVOzW8/yEeMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestMethodCleanupFailure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestMethodCleanupFailure.html",
+          "hash": "NOCiAuTDjXjsY8dAAPjp7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestMethodDisplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestMethodDisplay.html",
+          "hash": "Kpydgv5wrQbeeYWDOXS08g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestMethodDisplayOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestMethodDisplayOptions.html",
+          "hash": "gyiLicO3RWI/Y8iYaDZq0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestMethodFinished.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestMethodFinished.html",
+          "hash": "knR4HTdF47lPhdLYuGrBNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestMethodMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestMethodMessage.html",
+          "hash": "SFlaHZUuIsFSsLHI7ywNhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestMethodStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestMethodStarting.html",
+          "hash": "M2KUGzs7h3VjFng88BlR4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestOutput.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestOutput.html",
+          "hash": "4TQgVQZ5KifjFE6T42/18A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestPassed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestPassed.html",
+          "hash": "BLfXBdZR8g9waxdyvw+Vow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestResultMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestResultMessage.html",
+          "hash": "Q+dkuBIGHHbc9DmRIZow0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestSkipped.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestSkipped.html",
+          "hash": "Q20jiu8CE/mKmiDLdfxkbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TestStarting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TestStarting.html",
+          "hash": "o4ejtujE1Emy3MmY7i/Vaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TheoryAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TheoryAttribute.html",
+          "hash": "WOI0ruvIh2bNZO0pJgBkaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TheoryData-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TheoryData-1.html",
+          "hash": "FipsRLZ87bwSdTTMUGChpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TheoryData-10.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TheoryData-10.html",
+          "hash": "CfUsGSBgZFW80iMFCkpqag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TheoryData-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TheoryData-2.html",
+          "hash": "3umpf7LtaHA4mmoEwuo4qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TheoryData-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TheoryData-3.html",
+          "hash": "kXR5LbAdibVE9nTHdvzj7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TheoryData-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TheoryData-4.html",
+          "hash": "xbgaU8/3CjfPnn2cK1PJzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TheoryData-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TheoryData-5.html",
+          "hash": "ogtSywaO0egOCgiZa9iNVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TheoryData-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TheoryData-6.html",
+          "hash": "G+Xe1ehsHXj5ZwadZXsZlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TheoryData-7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TheoryData-7.html",
+          "hash": "gelHCTXg2dSVJOCrHMAgXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TheoryData-8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TheoryData-8.html",
+          "hash": "d0TpMshwr9rACAdHHx+rNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TheoryData-9.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TheoryData-9.html",
+          "hash": "roya9dIKXaJ50CqfA/9Lzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TheoryData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TheoryData.html",
+          "hash": "sueVbafN3+mFP9MYI0nXkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.TraitAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.TraitAttribute.html",
+          "hash": "ZCf6qFdH3JPocjBMSTZFKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Xunit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Xunit.html",
+          "hash": "Xzs/35qtFwVXOMAflL1yhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "fNbdzX676P3F+9AQb7Kkxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "F29ZKLdiUYYIYrggoHpikw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "Nl7ayGMjLp+T7dMW8Aioug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "hm4etOwm+w+75unViRop+A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 203,
+          "skipped_file_count": 25
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
